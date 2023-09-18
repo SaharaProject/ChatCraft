@@ -411,7 +411,7 @@ canvas {
   h1,
   h2 {
     font-size: 35px;
-    color: lighten($black, 27.8431);
+    color: #EFE7DB; /* Change text color to #EFE7DB */
     &:after {
       position: absolute;
       left: auto;
@@ -437,6 +437,7 @@ canvas {
     }
   }
 }
+
 
 #posts {
   .block-right {
