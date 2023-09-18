@@ -28,7 +28,7 @@ body {
 body {
   font-family: $base-font;
   color: $overlay-color;
-  background: #4f4f4f;
+  background: #a4a4a4;
 }
 
 a {
@@ -181,7 +181,7 @@ figure {
   }
 }
 
-@media only screen and (max-width: $small - 1px) {
+@media only screen and (max-width: ($small - 1px)) {
   figure {
     justify-content: center;
   }
