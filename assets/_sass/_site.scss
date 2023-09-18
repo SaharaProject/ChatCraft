@@ -411,7 +411,7 @@ canvas {
   h1,
   h2 {
     font-size: 35px;
-    color: #EFE7DB; /* Change text color to #EFE7DB */
+    color: #f1f1f1; /* Change text color to #EFE7DB */
     &:after {
       position: absolute;
       left: auto;
@@ -427,7 +427,7 @@ canvas {
     }
   }
   p {
-    color: darken($white, 40);
+    color: #dcd9d9; /* Change text color to #EFE7DB */
     font-size: 16px;
     margin: 10px 0;
     padding-top: 0;
@@ -446,6 +446,7 @@ canvas {
       height: auto;
       display: block;
       max-width: 800px;
+
     }
   }
   .logo {
