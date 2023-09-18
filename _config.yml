@@ -48,6 +48,14 @@ hydejack:
     cache_version:     1
     precache_assets:
       - /assets/img/swipe.svg
+      
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 optional_front_matter:
   remove_originals:    true
